@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">FMPS</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">EXTRACURRICULARES</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/foto.jpg" alt="">
+            </div>
+            <h1>MARIAM PAREDES</h1>
+            <h2>Estudiante de bachillerato en software</h2>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Mi nombre es Fernanda Mariam Paredes Sanchez.</span> Soy una persona con la visión puesta en el futuro, en mis ideales y metas, con capacidad creativa y analítica además de formación en informática e ingles.
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            11-10-2006
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            (+503)7633-4093
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            mariamparedes23@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Col.Zedan Ote. (Sonzacate Son.) , Pje 3/Block 10, Casa #15
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-palette"></i>
+                            <span>ARTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-film"></i>
+                            <span>CINE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-comments"></i>
+                            <span>IDIOMAS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LITERATURA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-hand-holding-heart"></i>
+                            <span>ACTIVIDADES ALTRUISTAS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOGRAFIA</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>HABILIDADES</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>HABILIDADES</h3>
+                    <div class="skill">
+                        <span>Pintura & dibujo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Manejo del nivel ingles(oral)</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Manejo del nivel ingles(escrito)</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Tecnicas de oralidad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>FORTALEZAS</h3>
+                    <div class="skill">
+                        <h3>-Resiliencia</h3>
+                    </div>
+                    <div class="skill">
+                        <h3>-Capacidad Analitica</h3>
+                    </div>
+                    <div class="skill">
+                        <h3>-Buen uso de la oratoria</h3>
+                    </div>
+                    <div class="skill">
+                        <h3>-Capacidad Creativa</h3>
+                    </div>
+                    <div class="skill">
+                        <h3>-Comunicacion activa con el entorno</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>EXTRACURRICULARES</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <div class="item izq">
+                        <h4>Concurso de Oratoria Fedecaces</h4>
+                        <span class="casa">Segundo lugar</span>
+                        <span class="fecha">2021</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Concurso de debates del Colegio Bautista Internacional de Sonsonate</h4>
+                        <span class="casa">Segundo lugar</span>
+                        <span class="fecha">2022</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Concurso Bachiller emprendedor</h4>
+                        <span class="casa">ESEN (Escuela Superior de Economia y Negocios)</span>
+                        <span class="fecha">2023</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <div class="item der">
+                        <h4>Coach en concurso de emprendimiento</h4>
+                        <span class="casa">Colegio Bautista Internacional de sonsonate</span>
+                        <span class="fecha">2023</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Liga de debates</h4>
+                        <span class="casa">UNE ATLANTICO</span>
+                        <span class="fecha">2024</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Traductora</h4>
+                        <span class="casa">para el ministerio de turismo de El salvador</span>
+                        <span class="fecha">2022</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Miembro del comite de debate</h4>
+                        <span class="casa">Colegio Bautista Internacional de Sonsonate</span>
+                        <span class="fecha">2024</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <a class="link" href="https://marpss11.github.io/web/" target="_blank">
+                        <div class="overlay">
+                            <h3>PROYECTO</h3>
+                            <p>HTML</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a class="link" href="https://marpss11.github.io/not/" target="_blank">
+                        <div class="overlay">
+                            <h3>PROYECTO</h3>
+                            <p>HTML</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <embed src="Proyectos.pdf" width="400" height="380" type="application/pdf">
+                </div>
+            </div>
+            <div class="proyecto">
+                <a class="link" href="https://github.com/Marpss11/semi.git" target="_blank">
+                    <div class="overlay">
+                        <h3>PROYECTO</h3>
+                        <p>DE GRADUACION</p>
+                    </div>
+                </a>
+            </div>
+            </div>
+        </div>
+    </section>    
+    <script src="script.js"></script>
+</body>
+</html>
